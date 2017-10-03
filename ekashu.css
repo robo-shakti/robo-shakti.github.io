@@ -345,7 +345,7 @@ body{
 
 #ekashu_field_valid_from
 {
-	
+	display: none;	
 }
 
 #ekashu_field_verification_value
@@ -373,9 +373,28 @@ body{
 	
 }
 
-.ekashu_input input
+.ekashu_input input,
+.ekashu_select select
 {
-	
+    font-family: Metropolis;
+    color: #666;
+    font-size: 17px;
+    line-height: 20px;
+    font-style: normal;
+    border-radius: 0;
+    height: 34px;
+    width: 100%;
+    padding: 6px 12px;
+    background: #fff;
+    border: 1px solid #333;
+    box-sizing: border-box;	
+}
+
+.ekashu_input input::-webkit-input-placeholder::before ,
+.ekashu_input input:-moz-placeholder::before ,
+.ekashu_input input::-moz-placeholder::before ,
+.ekashu_input input:-ms-input-placeholder::before{
+	content:'Hello';
 }
 
 #ekashu_input_card_first_name input
