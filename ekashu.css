@@ -115,7 +115,7 @@ body{
 
 .ekashu_field
 {
-	
+	margin-bottom: 15px;
 }
 
 #ekashu_field_card_address_1
@@ -427,14 +427,19 @@ body{
 	
 }
 
+#ekashu_select_expires_end{
+	font-size: 0px;
+}
+
 #ekashu_input_expires_end_month
 {
-	
+    width: calc(50% - 5px);
+    margin-right: 10px;
 }
 
 #ekashu_input_expires_end_year
 {
-	
+    width: calc(50% - 5px);	
 }
 
 #ekashu_input_invoice_first_name input
