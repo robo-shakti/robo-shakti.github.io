@@ -1,17 +1,4 @@
-body
-{
-	font-family: arial, helvetica, sans-serif;
-	font-size: 10pt;
-	margin: 10px;
-	text-align: left;
-}
-
-img
-{
-	border: 0px;
-}
-
-#ekashu_3d_logo_mastercard
+/*#ekashu_3d_logo_mastercard
 {
 	position: absolute;
 	right: 75px;
@@ -45,7 +32,7 @@ img
 {
 	color: #ED008C;
 	text-decoration: none;
-}
+}*/
 
 #ekashu_card_logos_accepted
 {
