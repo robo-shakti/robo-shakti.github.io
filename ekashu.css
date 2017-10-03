@@ -84,6 +84,8 @@
 
 body{
 	margin: 0px;
+	font-family: 'Metropolis';
+	color: #333333;
 }
 
 #ekashu_card_logos_accepted
@@ -190,6 +192,7 @@ body{
 	content: 'Billing Information';
     font-family: 'Metropolis-bold';
     font-size: 20px;
+    color: #333333;
 }
 
 #ekashu_field_card_email_address
@@ -431,7 +434,7 @@ body{
 .ekashu_select select
 {
     font-family: Metropolis;
-    color: #666;
+    color: #333333;
     font-size: 17px;
     line-height: 20px;
     font-style: normal;
@@ -558,7 +561,9 @@ body{
 
 .ekashu_label
 {
-	
+	font-family: 'Metropolis-bold';
+    font-size: 16px;
+    color: #333333;
 }
 
 .ekashu_mandatory
@@ -684,7 +689,18 @@ body{
 
 .ekashu_submit input
 {
-	
+    font-family: 'Metropolis-bold';
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 20px;
+    background-color: #5aaadc;
+    text-align: center;
+    width: 100%;
+    height: 46px;
+    padding: 12px 0;
+    border: none;
+    cursor: pointer;
 }
 
 #ekashu_submit_continue
