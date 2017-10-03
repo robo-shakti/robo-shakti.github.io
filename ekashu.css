@@ -34,6 +34,54 @@
 	text-decoration: none;
 }*/
 
+@font-face {
+    font-family: 'Metropolis-bold';
+    src: url('../fonts/metropolis/metropolis-bold-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis/metropolis-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis-bold-italic';
+    src: url('../fonts/metropolis/metropolis-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis/metropolis-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis-light';
+    src: url('../fonts/metropolis/metropolis-light-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis/metropolis-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis-light-italic';
+    src: url('../fonts/metropolis/metropolis-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis/metropolis-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/metropolis/metropolis-regular-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis/metropolis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis-italic';
+    src: url('../fonts/metropolis/metropolis-regularitalic-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis/metropolis-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
 	margin: 0px;
 }
@@ -138,9 +186,15 @@ body{
 	
 }
 
+#ekashu_section_card_address::before{
+	content: 'Billing Information';
+    font-family: 'Metropolis-bold';
+    font-size: 20px;
+}
+
 #ekashu_field_card_email_address
 {
-	
+	margin-top: 25px;	
 }
 
 #ekashu_field_card_first_name
@@ -590,7 +644,7 @@ body{
 
 .ekashu_section
 {
-	margin-bottom: 15px;	
+	margin-bottom: 30px;	
 }
 
 .ekashu_section_bottom
