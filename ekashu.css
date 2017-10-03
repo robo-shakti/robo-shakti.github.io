@@ -40,7 +40,7 @@ body{
 
 #ekashu_card_logos_accepted
 {
-	
+	margin-bottom: 15px;
 }
 
 #ekashu_card_logos_accepted img
@@ -50,7 +50,7 @@ body{
 
 #ekashu_card_logos_verification
 {
-	
+	display: none;	
 }
 
 #ekashu_card_logos_verification_images
@@ -590,7 +590,7 @@ body{
 
 .ekashu_section
 {
-	
+	margin-bottom: 15px;	
 }
 
 .ekashu_section_bottom
@@ -605,7 +605,7 @@ body{
 
 .ekashu_section_title
 {
-	
+	display: none;	
 }
 
 .ekashu_section_top
