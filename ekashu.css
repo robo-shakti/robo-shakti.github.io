@@ -34,53 +34,53 @@
 	text-decoration: none;
 }*/
 
-/*@font-face {
+@font-face {
     font-family: 'Metropolis-bold';
-    src: url('./content/fonts/metropolis/metropolis-bold-webfont.woff2') format('woff2'),
-         url('./content/fonts/metropolis/metropolis-bold-webfont.woff') format('woff');
+    src: url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-bold-webfont.woff2') format('woff2'),
+         url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis-bold-italic';
-    src: url('./content/fonts/metropolis/metropolis-bolditalic-webfont.woff2') format('woff2'),
-         url('./content/fonts/metropolis/metropolis-bolditalic-webfont.woff') format('woff');
+    src: url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-bolditalic-webfont.woff2') format('woff2'),
+         url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis-light';
-    src: url('./content/fonts/metropolis/metropolis-light-webfont.woff2') format('woff2'),
-         url('./content/fonts/metropolis/metropolis-light-webfont.woff') format('woff');
+    src: url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-light-webfont.woff2') format('woff2'),
+         url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis-light-italic';
-    src: url('./content/fonts/metropolis/metropolis-lightitalic-webfont.woff2') format('woff2'),
-         url('./content/fonts/metropolis/metropolis-lightitalic-webfont.woff') format('woff');
+    src: url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-lightitalic-webfont.woff2') format('woff2'),
+         url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    src: url('./content/fonts/metropolis/metropolis-regular-webfont.woff2') format('woff2'),
-         url('./content/fonts/metropolis/metropolis-regular-webfont.woff') format('woff');
+    src: url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-regular-webfont.woff2') format('woff2'),
+         url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis-italic';
-    src: url('./content/fonts/metropolis/metropolis-regularitalic-webfont.woff2') format('woff2'),
-         url('./content/fonts/metropolis/metropolis-regularitalic-webfont.woff') format('woff');
+    src: url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-regularitalic-webfont.woff2') format('woff2'),
+         url('https://robo-shakti.github.io/content/fonts/metropolis/metropolis-regularitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}*/
+}
 
 body{
 	margin: 0px;
