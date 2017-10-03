@@ -34,6 +34,10 @@
 	text-decoration: none;
 }*/
 
+body{
+	margin: 0px;
+}
+
 #ekashu_card_logos_accepted
 {
 	
@@ -61,7 +65,7 @@
 
 .ekashu_content
 {
-	
+	display: none;
 }
 
 .ekashu_content_card_verification_value
