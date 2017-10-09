@@ -98,7 +98,8 @@ body{
 	
 }
 
-#ekashu_card_logos_verification
+#ekashu_card_logos_verification,
+#ekashu_header_collect_data
 {
 	display: none;	
 }
@@ -115,7 +116,7 @@ body{
 
 .ekashu_content
 {
-	display: none;
+
 }
 
 .ekashu_content_card_verification_value
