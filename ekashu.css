@@ -136,12 +136,13 @@ body{
 
 .ekashu_error
 {
-	
+	color: red;
+	margin-bottom: 10px;	
 }
 
 .ekashu_errors
 {
-	
+    margin-bottom: 25px;	
 }
 
 .ekashu_errors_top
@@ -164,7 +165,8 @@ body{
 	
 }
 
-.ekashu_field
+.ekashu_field,
+.ekashu_field_error
 {
 	margin-bottom: 15px;
 }
@@ -301,9 +303,14 @@ body{
 	
 }
 
-.ekashu_field_error
+.ekashu_field_error .ekashu_label
 {
-	
+	color: red;
+}
+
+.ekashu_field_error .ekashu_input
+{
+	border-color: red;
 }
 
 #ekashu_field_expires_end
