@@ -142,7 +142,8 @@ body{
 
 .ekashu_errors
 {
-    margin-bottom: 25px;	
+	display: none;
+    margin-bottom: 25px;
 }
 
 .ekashu_errors_top
@@ -308,7 +309,7 @@ body{
 	color: red;
 }
 
-.ekashu_field_error .ekashu_input
+.ekashu_field_error .ekashu_input input
 {
 	border-color: red;
 }
